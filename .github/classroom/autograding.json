@@ -1,0 +1,74 @@
+{
+  "tests": [
+    {
+      "name": "H",
+      "setup": "mvn compile",
+      "run": "mvn -Dtest=FormulaCalcTest#test_with_H test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "KBr",
+      "setup": "mvn compile",
+      "run": "mvn -Dtest=FormulaCalcTest#test_with_KBr test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Ca OH 2",
+      "setup": "mvn compile",
+      "run": "mvn -Dtest=FormulaCalcTest#test_with_Ca_OH_2 test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "H2O",
+      "setup": "mvn compile",
+      "run": "mvn -Dtest=FormulaCalcTest#test_with_H2O test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "C6H12O6",
+      "setup": "mvn compile",
+      "run": "mvn -Dtest=FormulaCalcTest#test_with_C6H12O6 test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Ni NO3 2",
+      "setup": "mvn compile",
+      "run": "mvn -Dtest=FormulaCalcTest#test_with_Ni_NO3_2 test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Co3 FE CN 6 2",
+      "setup": "mvn compile",
+      "run": "mvn -Dtest=FormulaCalcTest#test_with_Co3_Fe_CN_6_2 test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    }
+  ]
+}
